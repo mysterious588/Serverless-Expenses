@@ -1,0 +1,19 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "update-expense",
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "price": {
+        "type": "number",
+        "minLength": 1
+      }
+    },
+    "required": [
+      "name",
+      "price"
+    ]
+}
